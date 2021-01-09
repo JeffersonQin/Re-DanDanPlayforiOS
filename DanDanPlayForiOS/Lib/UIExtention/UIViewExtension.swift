@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIView {
     
-    public var Alpha : CGFloat {
+    var Alpha : CGFloat {
         get {
             return self.alpha
         }
@@ -19,7 +19,7 @@ public extension UIView {
         }
     }
     
-    public var Width : CGFloat {
+    var Width : CGFloat {
         get {
             return self.frame.width
         }
@@ -28,7 +28,7 @@ public extension UIView {
         }
     }
     
-    public var Height : CGFloat {
+    var Height : CGFloat {
         get {
             return self.frame.height
         }
@@ -37,7 +37,7 @@ public extension UIView {
         }
     }
     
-    public var xStart : CGFloat {
+    var xStart : CGFloat {
         get {
             return self.frame.minX
         }
@@ -46,7 +46,7 @@ public extension UIView {
         }
     }
     
-    public var xEnd : CGFloat {
+    var xEnd : CGFloat {
         get {
             return self.frame.maxX
         }
@@ -55,7 +55,7 @@ public extension UIView {
         }
     }
     
-    public var yStart : CGFloat {
+    var yStart : CGFloat {
         get {
             return self.frame.minY
         }
@@ -64,7 +64,7 @@ public extension UIView {
         }
     }
     
-    public var yEnd : CGFloat {
+    var yEnd : CGFloat {
         get {
             return self.frame.maxY
         }
@@ -73,7 +73,7 @@ public extension UIView {
         }
     }
     
-    public var Top : CGFloat {
+    var Top : CGFloat {
         get {
             return self.frame.minY
         }
@@ -82,7 +82,7 @@ public extension UIView {
         }
     }
     
-    public var Bottom : CGFloat {
+    var Bottom : CGFloat {
         get {
             return self.frame.maxY
         }
@@ -91,7 +91,7 @@ public extension UIView {
         }
     }
     
-    public var Left : CGFloat {
+    var Left : CGFloat {
         get {
             return self.frame.minX
         }
@@ -100,7 +100,7 @@ public extension UIView {
         }
     }
     
-    public var Right : CGFloat {
+    var Right : CGFloat {
         get {
             return self.frame.maxX
         }
@@ -109,7 +109,7 @@ public extension UIView {
         }
     }
     
-    public var xCenter : CGFloat {
+    var xCenter : CGFloat {
         get {
             return self.center.x
         }
@@ -118,7 +118,7 @@ public extension UIView {
         }
     }
     
-    public var yCenter : CGFloat {
+    var yCenter : CGFloat {
         get {
             return self.center.y
         }
@@ -127,7 +127,7 @@ public extension UIView {
         }
     }
     
-    public var FrameRawValueSet : [CGFloat]    {
+    var FrameRawValueSet : [CGFloat]    {
         get {
             return [self.xStart, self.yStart, self.Width, self.Height]
         }
@@ -137,21 +137,21 @@ public extension UIView {
     }
     
     //EZSwiftExtension
-    public func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
+    func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
         let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
         let mask = CAShapeLayer()
         mask.path = path.cgPath
         self.layer.mask = mask
     }
     
-    public func removeAllSubViews() {
+    func removeAllSubViews() {
         for subView in self.subviews {
             subView.removeFromSuperview()
         }
     }
     
     //EZSwiftExtension
-    public func centerXinSuperView() {
+    func centerXinSuperView() {
         guard let parentView = superview else {
             assertionFailure("EZSwiftExtensions Error: The view \(self) doesn't have a superview")
             return
@@ -160,7 +160,7 @@ public extension UIView {
     }
     
     //EZSwiftExtension
-    public func centerYinSuperView() {
+    func centerYinSuperView() {
         guard let parentView = superview else {
             assertionFailure("EZSwiftExtensions Error: The view \(self) doesn't have a superview")
             return
@@ -169,56 +169,56 @@ public extension UIView {
     }
     
     //EZSwiftExtension
-    public func CenterViewInSuperView() {
+    func CenterViewInSuperView() {
         self.centerXinSuperView()
         self.centerYinSuperView()
     }
     
-    public func SameSizeAsSuperView() {
+    func SameSizeAsSuperView() {
         self.FrameRawValueSet = (self.superview?.FrameRawValueSet)!
     }
     
-    public func beInvisibleBySettingAlpha() {
+    func beInvisibleBySettingAlpha() {
         self.alpha = 0
     }
     
-    public func setAlpha(alpha: CGFloat) {
+    func setAlpha(alpha: CGFloat) {
         self.alpha = alpha
     }
     
-    public func setWidth(width: CGFloat) {
+    func setWidth(width: CGFloat) {
         self.Width = width
     }
     
-    public func setHeight(height: CGFloat) {
+    func setHeight(height: CGFloat) {
         self.Height = height
     }
     
-    public func setCenter(center: CGPoint) {
+    func setCenter(center: CGPoint) {
         self.center = center
     }
     
-    public func setCenterX(centerX: CGFloat) {
+    func setCenterX(centerX: CGFloat) {
         self.xCenter = centerX
     }
     
-    public func setCenterY(centerY: CGFloat) {
+    func setCenterY(centerY: CGFloat) {
         self.yCenter = centerY
     }
     
-    public func setOriginalX(originalX: CGFloat) {
+    func setOriginalX(originalX: CGFloat) {
         self.xStart = originalX
     }
     
-    public func setOriginalY(originalY: CGFloat) {
+    func setOriginalY(originalY: CGFloat) {
         self.yStart = originalY
     }
     
-    public func setBackGroundColor(color: UIColor) {
+    func setBackGroundColor(color: UIColor) {
         self.backgroundColor = color
     }
     
-    public func setBackGroundColor(color: CGColor) {
+    func setBackGroundColor(color: CGColor) {
         self.backgroundColor = UIColor(cgColor: color)
     }
     

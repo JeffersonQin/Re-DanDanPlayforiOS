@@ -7,25 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2036E1A625A9BC5E005673F5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1A525A9BC5E005673F5 /* AudioToolbox.framework */; };
+		2036E1A825A9BC65005673F5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1A725A9BC65005673F5 /* AVFoundation.framework */; };
+		2036E1AA25A9BC6A005673F5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1A925A9BC6A005673F5 /* CFNetwork.framework */; };
+		2036E1AC25A9BC73005673F5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1AB25A9BC73005673F5 /* CoreFoundation.framework */; };
+		2036E1AE25A9BC79005673F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1AD25A9BC79005673F5 /* CoreGraphics.framework */; };
+		2036E1B025A9BC80005673F5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1AF25A9BC80005673F5 /* CoreMedia.framework */; };
+		2036E1B225A9BC86005673F5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1B125A9BC86005673F5 /* CoreText.framework */; };
+		2036E1B425A9BC8B005673F5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1B325A9BC8B005673F5 /* CoreVideo.framework */; };
+		2036E1B625A9BC93005673F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1B525A9BC93005673F5 /* Foundation.framework */; };
+		2036E1B825A9BCA0005673F5 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1B725A9BCA0005673F5 /* libbz2.tbd */; };
+		2036E1BB25A9BCAB005673F5 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1BA25A9BCAB005673F5 /* libiconv.tbd */; };
+		2036E1BE25A9BCB3005673F5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1BD25A9BCB3005673F5 /* OpenGLES.framework */; };
+		2036E1C025A9BCBA005673F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1BF25A9BCBA005673F5 /* QuartzCore.framework */; };
+		2036E1C225A9BCC3005673F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1C125A9BCC2005673F5 /* Security.framework */; };
+		2036E1C425A9BCCB005673F5 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1C325A9BCCB005673F5 /* VideoToolbox.framework */; };
+		2036E1C625A9BCD9005673F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2036E1C525A9BCD9005673F5 /* UIKit.framework */; };
+		2036E1CA25A9BD67005673F5 /* header.m in Sources */ = {isa = PBXBuildFile; fileRef = 2036E1C925A9BD67005673F5 /* header.m */; };
+		2036E1CD25A9C0D8005673F5 /* TestVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2036E1CC25A9C0D8005673F5 /* TestVideoViewController.swift */; };
 		20388E6E25A8B7E100D6A96F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388E6D25A8B7E100D6A96F /* AppDelegate.swift */; };
 		20388E7025A8B7E100D6A96F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388E6F25A8B7E100D6A96F /* SceneDelegate.swift */; };
-		20388E7225A8B7E100D6A96F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388E7125A8B7E100D6A96F /* ViewController.swift */; };
 		20388E7525A8B7E100D6A96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20388E7325A8B7E100D6A96F /* Main.storyboard */; };
 		20388E7725A8B7E400D6A96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20388E7625A8B7E400D6A96F /* Assets.xcassets */; };
 		20388E7A25A8B7E400D6A96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20388E7825A8B7E400D6A96F /* LaunchScreen.storyboard */; };
-		20388E8325A8BB7D00D6A96F /* Lib in Resources */ = {isa = PBXBuildFile; fileRef = 20388E8225A8BB7D00D6A96F /* Lib */; };
+		205CB0CB25A95C7000A66173 /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0BA25A95C7000A66173 /* UITextViewExtension.swift */; };
+		205CB0CC25A95C7000A66173 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0BB25A95C7000A66173 /* UIViewControllerExtension.swift */; };
+		205CB0CD25A95C7000A66173 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0BC25A95C7000A66173 /* UITableViewExtension.swift */; };
+		205CB0CE25A95C7000A66173 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0BD25A95C7000A66173 /* UIViewExtension.swift */; };
+		205CB0CF25A95C7000A66173 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0BE25A95C7000A66173 /* UIImageExtension.swift */; };
+		205CB0D025A95C7000A66173 /* JQAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0C025A95C7000A66173 /* JQAnimationController.swift */; };
+		205CB0D125A95C7000A66173 /* JQOldSideView_ControllerSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0C125A95C7000A66173 /* JQOldSideView_ControllerSet.swift */; };
+		205CB0D225A95C7000A66173 /* JQAlertViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0C225A95C7000A66173 /* JQAlertViewControl.swift */; };
+		205CB0D325A95C7000A66173 /* JQSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0C425A95C7000A66173 /* JQSearchBar.swift */; };
+		205CB0D425A95C7000A66173 /* JQButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0C525A95C7000A66173 /* JQButton.swift */; };
+		205CB0D525A95C7000A66173 /* UIntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0C725A95C7000A66173 /* UIntExtension.swift */; };
+		205CB0D625A95C7000A66173 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0C825A95C7000A66173 /* IntExtension.swift */; };
+		205CB0D725A95C7000A66173 /* CharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0C925A95C7000A66173 /* CharacterExtension.swift */; };
+		205CB0D825A95C7000A66173 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0CA25A95C7000A66173 /* StringExtension.swift */; };
+		205CB0E025A95E7F00A66173 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205CB0DF25A95E7F00A66173 /* CloudKit.framework */; };
+		205CB0E925A9644300A66173 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CB0E825A9644300A66173 /* FileViewController.swift */; };
+		35C68AC4FB8E782B09E1145B /* Pods_DanDanPlayForiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED32F15EAD63E46BF7B100B9 /* Pods_DanDanPlayForiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2036E1A525A9BC5E005673F5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2036E1A725A9BC65005673F5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2036E1A925A9BC6A005673F5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2036E1AB25A9BC73005673F5 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2036E1AD25A9BC79005673F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2036E1AF25A9BC80005673F5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2036E1B125A9BC86005673F5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2036E1B325A9BC8B005673F5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2036E1B525A9BC93005673F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2036E1B725A9BCA0005673F5 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		2036E1BA25A9BCAB005673F5 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		2036E1BD25A9BCB3005673F5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2036E1BF25A9BCBA005673F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2036E1C125A9BCC2005673F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2036E1C325A9BCCB005673F5 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2036E1C525A9BCD9005673F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2036E1C825A9BD66005673F5 /* DanDanPlayForiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DanDanPlayForiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		2036E1C925A9BD67005673F5 /* header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = header.m; sourceTree = "<group>"; };
+		2036E1CC25A9C0D8005673F5 /* TestVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVideoViewController.swift; sourceTree = "<group>"; };
 		20388E6A25A8B7E100D6A96F /* DanDanPlayForiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanDanPlayForiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20388E6D25A8B7E100D6A96F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20388E6F25A8B7E100D6A96F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		20388E7125A8B7E100D6A96F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20388E7425A8B7E100D6A96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20388E7625A8B7E400D6A96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20388E7925A8B7E400D6A96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20388E7B25A8B7E400D6A96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20388E8225A8BB7D00D6A96F /* Lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lib; sourceTree = "<group>"; };
+		205CB0BA25A95C7000A66173 /* UITextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
+		205CB0BB25A95C7000A66173 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		205CB0BC25A95C7000A66173 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		205CB0BD25A95C7000A66173 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		205CB0BE25A95C7000A66173 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		205CB0C025A95C7000A66173 /* JQAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQAnimationController.swift; sourceTree = "<group>"; };
+		205CB0C125A95C7000A66173 /* JQOldSideView_ControllerSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQOldSideView_ControllerSet.swift; sourceTree = "<group>"; };
+		205CB0C225A95C7000A66173 /* JQAlertViewControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQAlertViewControl.swift; sourceTree = "<group>"; };
+		205CB0C425A95C7000A66173 /* JQSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQSearchBar.swift; sourceTree = "<group>"; };
+		205CB0C525A95C7000A66173 /* JQButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQButton.swift; sourceTree = "<group>"; };
+		205CB0C725A95C7000A66173 /* UIntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIntExtension.swift; sourceTree = "<group>"; };
+		205CB0C825A95C7000A66173 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		205CB0C925A95C7000A66173 /* CharacterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExtension.swift; sourceTree = "<group>"; };
+		205CB0CA25A95C7000A66173 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		205CB0DC25A95E7A00A66173 /* DanDanPlayForiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DanDanPlayForiOS.entitlements; sourceTree = "<group>"; };
+		205CB0DF25A95E7F00A66173 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		205CB0E825A9644300A66173 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		9AAE3C91D68DAC3FA449624D /* Pods-DanDanPlayForiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanDanPlayForiOS.release.xcconfig"; path = "Target Support Files/Pods-DanDanPlayForiOS/Pods-DanDanPlayForiOS.release.xcconfig"; sourceTree = "<group>"; };
+		E9ECDDF2F255B35FD97D68E2 /* Pods-DanDanPlayForiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanDanPlayForiOS.debug.xcconfig"; path = "Target Support Files/Pods-DanDanPlayForiOS/Pods-DanDanPlayForiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		ED32F15EAD63E46BF7B100B9 /* Pods_DanDanPlayForiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanDanPlayForiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +103,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2036E1C625A9BCD9005673F5 /* UIKit.framework in Frameworks */,
+				2036E1C425A9BCCB005673F5 /* VideoToolbox.framework in Frameworks */,
+				2036E1C225A9BCC3005673F5 /* Security.framework in Frameworks */,
+				2036E1C025A9BCBA005673F5 /* QuartzCore.framework in Frameworks */,
+				2036E1BE25A9BCB3005673F5 /* OpenGLES.framework in Frameworks */,
+				2036E1BB25A9BCAB005673F5 /* libiconv.tbd in Frameworks */,
+				2036E1B825A9BCA0005673F5 /* libbz2.tbd in Frameworks */,
+				2036E1B625A9BC93005673F5 /* Foundation.framework in Frameworks */,
+				2036E1B425A9BC8B005673F5 /* CoreVideo.framework in Frameworks */,
+				2036E1B225A9BC86005673F5 /* CoreText.framework in Frameworks */,
+				2036E1B025A9BC80005673F5 /* CoreMedia.framework in Frameworks */,
+				2036E1AE25A9BC79005673F5 /* CoreGraphics.framework in Frameworks */,
+				2036E1AC25A9BC73005673F5 /* CoreFoundation.framework in Frameworks */,
+				2036E1AA25A9BC6A005673F5 /* CFNetwork.framework in Frameworks */,
+				2036E1A825A9BC65005673F5 /* AVFoundation.framework in Frameworks */,
+				2036E1A625A9BC5E005673F5 /* AudioToolbox.framework in Frameworks */,
+				205CB0E025A95E7F00A66173 /* CloudKit.framework in Frameworks */,
+				35C68AC4FB8E782B09E1145B /* Pods_DanDanPlayForiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +132,8 @@
 			children = (
 				20388E6C25A8B7E100D6A96F /* DanDanPlayForiOS */,
 				20388E6B25A8B7E100D6A96F /* Products */,
+				205CB0DE25A95E7F00A66173 /* Frameworks */,
+				648115BD147313870E4D2C1A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +148,123 @@
 		20388E6C25A8B7E100D6A96F /* DanDanPlayForiOS */ = {
 			isa = PBXGroup;
 			children = (
-				20388E8225A8BB7D00D6A96F /* Lib */,
+				205CB0ED25A96BF100A66173 /* Model */,
+				205CB0E225A962FF00A66173 /* Controller */,
+				205CB0DC25A95E7A00A66173 /* DanDanPlayForiOS.entitlements */,
+				205CB0B825A95C7000A66173 /* Lib */,
 				20388E6D25A8B7E100D6A96F /* AppDelegate.swift */,
 				20388E6F25A8B7E100D6A96F /* SceneDelegate.swift */,
-				20388E7125A8B7E100D6A96F /* ViewController.swift */,
 				20388E7325A8B7E100D6A96F /* Main.storyboard */,
 				20388E7625A8B7E400D6A96F /* Assets.xcassets */,
 				20388E7825A8B7E400D6A96F /* LaunchScreen.storyboard */,
 				20388E7B25A8B7E400D6A96F /* Info.plist */,
+				2036E1C925A9BD67005673F5 /* header.m */,
+				2036E1C825A9BD66005673F5 /* DanDanPlayForiOS-Bridging-Header.h */,
 			);
 			path = DanDanPlayForiOS;
+			sourceTree = "<group>";
+		};
+		205CB0B825A95C7000A66173 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				205CB0B925A95C7000A66173 /* UIExtention */,
+				205CB0BF25A95C7000A66173 /* Controller */,
+				205CB0C325A95C7000A66173 /* View */,
+				205CB0C625A95C7000A66173 /* TypeExtension */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		205CB0B925A95C7000A66173 /* UIExtention */ = {
+			isa = PBXGroup;
+			children = (
+				205CB0BA25A95C7000A66173 /* UITextViewExtension.swift */,
+				205CB0BB25A95C7000A66173 /* UIViewControllerExtension.swift */,
+				205CB0BC25A95C7000A66173 /* UITableViewExtension.swift */,
+				205CB0BD25A95C7000A66173 /* UIViewExtension.swift */,
+				205CB0BE25A95C7000A66173 /* UIImageExtension.swift */,
+			);
+			path = UIExtention;
+			sourceTree = "<group>";
+		};
+		205CB0BF25A95C7000A66173 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				205CB0C025A95C7000A66173 /* JQAnimationController.swift */,
+				205CB0C125A95C7000A66173 /* JQOldSideView_ControllerSet.swift */,
+				205CB0C225A95C7000A66173 /* JQAlertViewControl.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		205CB0C325A95C7000A66173 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				205CB0C425A95C7000A66173 /* JQSearchBar.swift */,
+				205CB0C525A95C7000A66173 /* JQButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		205CB0C625A95C7000A66173 /* TypeExtension */ = {
+			isa = PBXGroup;
+			children = (
+				205CB0C725A95C7000A66173 /* UIntExtension.swift */,
+				205CB0C825A95C7000A66173 /* IntExtension.swift */,
+				205CB0C925A95C7000A66173 /* CharacterExtension.swift */,
+				205CB0CA25A95C7000A66173 /* StringExtension.swift */,
+			);
+			path = TypeExtension;
+			sourceTree = "<group>";
+		};
+		205CB0DE25A95E7F00A66173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2036E1C525A9BCD9005673F5 /* UIKit.framework */,
+				2036E1C325A9BCCB005673F5 /* VideoToolbox.framework */,
+				2036E1C125A9BCC2005673F5 /* Security.framework */,
+				2036E1BF25A9BCBA005673F5 /* QuartzCore.framework */,
+				2036E1BD25A9BCB3005673F5 /* OpenGLES.framework */,
+				2036E1BA25A9BCAB005673F5 /* libiconv.tbd */,
+				2036E1B725A9BCA0005673F5 /* libbz2.tbd */,
+				2036E1B525A9BC93005673F5 /* Foundation.framework */,
+				2036E1B325A9BC8B005673F5 /* CoreVideo.framework */,
+				2036E1B125A9BC86005673F5 /* CoreText.framework */,
+				2036E1AF25A9BC80005673F5 /* CoreMedia.framework */,
+				2036E1AD25A9BC79005673F5 /* CoreGraphics.framework */,
+				2036E1AB25A9BC73005673F5 /* CoreFoundation.framework */,
+				2036E1A925A9BC6A005673F5 /* CFNetwork.framework */,
+				2036E1A725A9BC65005673F5 /* AVFoundation.framework */,
+				2036E1A525A9BC5E005673F5 /* AudioToolbox.framework */,
+				205CB0DF25A95E7F00A66173 /* CloudKit.framework */,
+				ED32F15EAD63E46BF7B100B9 /* Pods_DanDanPlayForiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		205CB0E225A962FF00A66173 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				205CB0E825A9644300A66173 /* FileViewController.swift */,
+				2036E1CC25A9C0D8005673F5 /* TestVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		205CB0ED25A96BF100A66173 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		648115BD147313870E4D2C1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9ECDDF2F255B35FD97D68E2 /* Pods-DanDanPlayForiOS.debug.xcconfig */,
+				9AAE3C91D68DAC3FA449624D /* Pods-DanDanPlayForiOS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +274,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20388E7E25A8B7E400D6A96F /* Build configuration list for PBXNativeTarget "DanDanPlayForiOS" */;
 			buildPhases = (
+				C0FCC9491563DB96A98179A9 /* [CP] Check Pods Manifest.lock */,
 				20388E6625A8B7E100D6A96F /* Sources */,
 				20388E6725A8B7E100D6A96F /* Frameworks */,
 				20388E6825A8B7E100D6A96F /* Resources */,
@@ -101,6 +299,7 @@
 				TargetAttributes = {
 					20388E6925A8B7E100D6A96F = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -129,21 +328,61 @@
 			files = (
 				20388E7A25A8B7E400D6A96F /* LaunchScreen.storyboard in Resources */,
 				20388E7725A8B7E400D6A96F /* Assets.xcassets in Resources */,
-				20388E8325A8BB7D00D6A96F /* Lib in Resources */,
 				20388E7525A8B7E100D6A96F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C0FCC9491563DB96A98179A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DanDanPlayForiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20388E6625A8B7E100D6A96F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20388E7225A8B7E100D6A96F /* ViewController.swift in Sources */,
+				2036E1CA25A9BD67005673F5 /* header.m in Sources */,
 				20388E6E25A8B7E100D6A96F /* AppDelegate.swift in Sources */,
+				205CB0CC25A95C7000A66173 /* UIViewControllerExtension.swift in Sources */,
+				205CB0D525A95C7000A66173 /* UIntExtension.swift in Sources */,
+				205CB0D425A95C7000A66173 /* JQButton.swift in Sources */,
+				2036E1CD25A9C0D8005673F5 /* TestVideoViewController.swift in Sources */,
+				205CB0CD25A95C7000A66173 /* UITableViewExtension.swift in Sources */,
+				205CB0CE25A95C7000A66173 /* UIViewExtension.swift in Sources */,
+				205CB0D125A95C7000A66173 /* JQOldSideView_ControllerSet.swift in Sources */,
+				205CB0D825A95C7000A66173 /* StringExtension.swift in Sources */,
+				205CB0D625A95C7000A66173 /* IntExtension.swift in Sources */,
+				205CB0D325A95C7000A66173 /* JQSearchBar.swift in Sources */,
 				20388E7025A8B7E100D6A96F /* SceneDelegate.swift in Sources */,
+				205CB0D225A95C7000A66173 /* JQAlertViewControl.swift in Sources */,
+				205CB0E925A9644300A66173 /* FileViewController.swift in Sources */,
+				205CB0CB25A95C7000A66173 /* UITextViewExtension.swift in Sources */,
+				205CB0D725A95C7000A66173 /* CharacterExtension.swift in Sources */,
+				205CB0D025A95C7000A66173 /* JQAnimationController.swift in Sources */,
+				205CB0CF25A95C7000A66173 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +514,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,9 +526,12 @@
 		};
 		20388E7F25A8B7E400D6A96F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ECDDF2F255B35FD97D68E2 /* Pods-DanDanPlayForiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DanDanPlayForiOS/DanDanPlayForiOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MM7G949396;
 				INFOPLIST_FILE = DanDanPlayForiOS/Info.plist;
@@ -299,6 +541,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.sfls.jeffersionqin.dev.DanDanPlayForiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DanDanPlayForiOS/DanDanPlayForiOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,9 +550,12 @@
 		};
 		20388E8025A8B7E400D6A96F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAE3C91D68DAC3FA449624D /* Pods-DanDanPlayForiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DanDanPlayForiOS/DanDanPlayForiOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MM7G949396;
 				INFOPLIST_FILE = DanDanPlayForiOS/Info.plist;
@@ -318,6 +565,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.sfls.jeffersionqin.dev.DanDanPlayForiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DanDanPlayForiOS/DanDanPlayForiOS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
